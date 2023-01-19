@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular edad </title>
+</head>
+<body>
+    
+    <script>
+
+        let año_actual= parseInt(prompt("ingrese año actual"));
+        let año_nacimiento= parseInt(prompt("ingrese año de nacimiento"));
+        let mes_actual= parseInt(prompt("ingrese mes actual"));
+        let mes_nacimiento= parseInt(prompt("ingrese mes de nacimiento"));
+        let dia_actual= parseInt(prompt("ingrese dia actual"));
+        let dia_nacimiento= parseInt(prompt("ingrese dia de nacimiento"));
+
+
+
+       
+
+
+        if (dia_nacimiento>=dia_actual) {let resultado=año_actual-año_nacimiento-1;
+            document.write("usted tiene"+ resultado+"años");            
+        } else {(dia_nacimiento<=dia_actual);
+            let resultado=año_actual-año_nacimiento;
+            document.write("usted tiene"+resultado+"años");
+            
+        }
+
+
+        if (mes_nacimiento>=mes_actual)
+        {let resultado=año_actual-año_nacimiento-1;
+        document.write("usted tiene"+resultado+"años");}
+        
+        else {(mes_nacimiento<=mes_actual);
+        let resultado=año_actual-año_nacimiento;
+        document.write("usted tiene"+resultado+"años");}
+
+
+            
+            
+        
+            
+        
+             
+         
+             
+    </script>
+</body>
+</html>
